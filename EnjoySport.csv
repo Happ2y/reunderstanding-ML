@@ -1,0 +1,6 @@
+Sky,Air,Humidity,Wind,Water,Forecast,Current,Enjoy
+Sunny,Warm,Normal,Strong,Warm,Same,High,True
+Sunny,Warm,High,Strong,Warm,Same,High,True
+Rainy,Cold,High,Strong,Warm,Change,Low,False
+Sunny,Warm,High,Strong,Cool,Change,High,True
+Sunny,Warm,High,Weak,Warm,Same,Low,False
