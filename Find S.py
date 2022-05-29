@@ -1,7 +1,7 @@
 import pandas
 
 if __name__ == "__main__":
-    df = pandas.read_csv("EnjoySport.csv")
+    df = pandas.read_csv("./datasets/EnjoySport.csv")
     keys = df.columns
     inputObservations = df.loc[:, keys[0]:keys[-2]]
     outputObservations = df[keys[-1]]
@@ -11,7 +11,7 @@ if __name__ == "__main__":
     print("Output features - ")
     print(outputObservations, end="\n\n")
 
-    # Find S 
+    # Find S
     H = ["ϕ"] * (len(keys) - 1)
     print(H)
     for i in range(len(inputObservations)):

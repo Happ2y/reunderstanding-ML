@@ -6,7 +6,7 @@ from matplotlib import pyplot as plot
 
 if __name__ == "__main__":
     # read csv file & separate dependent & independent values
-    df = pandas.read_csv("LeastSquareDataSet.csv")
+    df = pandas.read_csv("./datasets/LeastSquareDataSet.csv")
     X = df["x"]  # independent
     Y = df["y"]  # dependent
     print(df)

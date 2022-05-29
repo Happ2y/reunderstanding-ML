@@ -1,7 +1,7 @@
 import pandas
 
 if __name__ == "__main__":
-    df = pandas.read_csv("EnjoySport.csv")
+    df = pandas.read_csv("./datasets/EnjoySport.csv")
     keys = df.columns
     inputObservations = df.loc[:, keys[0]:keys[-2]]
     outputObservations = df[keys[-1]]
