@@ -1,0 +1,5 @@
+In real life, A decision is affected by multiple parameters.
+y = m1x1 + m2x2 + . . . . . + mnxn + c
+
+House Pricing Model : https://github.com/Happ2y/predicting-house-pricing
+Diabetes Prediction Model : https://github.com/Happ2y/diabetes-prediction
