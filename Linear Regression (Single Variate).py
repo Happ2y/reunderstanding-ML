@@ -1,3 +1,9 @@
+'''
+    It is a type of supervised learning
+    Linear Regression shows a linear relationship between dependent & independent variables
+    The idea is to find a best fit line by minimising the error (loss function)
+'''
+
 # import dependencies
 import math
 import numpy
