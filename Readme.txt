@@ -14,6 +14,24 @@ Types of machine learning models -
     - Association : Prediction of next possible behaviour
     - Dimensionality reduction : Reduction in size of data
 
+
+
+Linear Regression :
+    It is a type of supervised learning
+    Linear Regression shows a linear relationship between dependent & independent variables
+    The idea is to find a best fit line by minimising the error (loss function)
+
+        - Single variate :
+            https://github.com/Happ2y/reunderstanding-ML/blob/main/Linear%20Regression%20(Single%20Variate).py
+
+        - Multi variate :
+            In real life, A decision is affected by multiple parameters.
+            y = m1x1 + m2x2 + . . . . . + mnxn + c
+            House Pricing Model : https://github.com/Happ2y/predicting-house-pricing
+            Diabetes Prediction Model : https://github.com/Happ2y/diabetes-prediction
+
+
+
 Gradient Descent :
 An algorithm where we try to global minimum of a given function using it's derivative.
     - Batch gradient descent : All the dataset values are fed at once
