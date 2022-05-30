@@ -37,3 +37,16 @@ An algorithm where we try to global minimum of a given function using it's deriv
     - Batch gradient descent : All the dataset values are fed at once
     - Mini Batch gradient descent : Data Scientist decides what number of dataset values are to be fed at one go
     - Stochastic gradient descent : 1 dataset value is fed at once (episodic)
+    
+    
+K Means :
+Within K nearest neighbours, class with maximum occurence will be the class of the observation
+     Overfitting : When k value is too large, irrevelent neighbours are being considered
+     Underfitting : When k value is too small, outcome class gets bounded with some limited observations
+     K = sqrt(n), n = size(dataset)
+
+     Pros: Simpler approach
+
+     Cons:
+        Complexity in finding k value for highest accuracy
+        Computational complexity in finding distance for classification
