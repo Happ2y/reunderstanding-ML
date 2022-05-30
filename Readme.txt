@@ -40,11 +40,15 @@ An algorithm where we try to global minimum of a given function using it's deriv
     
     
 K Means :
-Within K nearest neighbours, class with maximum occurence will be the class of the observation
-     Overfitting : When k value is too large, irrevelent neighbours are being considered
-     Underfitting : When k value is too small, outcome class gets bounded with some limited observations
-     K = sqrt(n), n = size(dataset)
-     Pros: Simpler approach
-     Cons:
+    Within K nearest neighbours, class with maximum occurence will be the class of the observation
+    Overfitting : When k value is too small, model fits too properly with training data
+        Low training error
+        Hight testing error
+        In order to prevent overfitting, we can either resample the training datset or hold some dataset for validation.
+    Underfitting : When k value is too large, irrevelent neighbours are being considered
+    
+    K = sqrt(n), n = size(dataset)
+    Pros : Simpler approach
+    Cons :
         Complexity in finding k value for highest accuracy
         Computational complexity in finding distance for classification
