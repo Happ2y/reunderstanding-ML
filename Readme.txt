@@ -44,9 +44,7 @@ Within K nearest neighbours, class with maximum occurence will be the class of t
      Overfitting : When k value is too large, irrevelent neighbours are being considered
      Underfitting : When k value is too small, outcome class gets bounded with some limited observations
      K = sqrt(n), n = size(dataset)
-
      Pros: Simpler approach
-
      Cons:
         Complexity in finding k value for highest accuracy
         Computational complexity in finding distance for classification
