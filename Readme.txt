@@ -52,3 +52,6 @@ K Means :
     Cons :
         Complexity in finding k value for highest accuracy
         Computational complexity in finding distance for classification
+
+Logistic Regression :
+It predicts a continuous value (probablity), which is then used to classify observations into classes. Therefore, It is a regression model that does classification.
